@@ -1,2 +1,30 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+
+# Unity specific files
+*.unity text eol=lf
+*.prefab text eol=lf
+*.asset text eol=lf
+*.meta text eol=lf
+*.anim text eol=lf
+*.controller text eol=lf
+*.mat text eol=lf
+*.shader text eol=lf
+*.shadergraph text eol=lf
+*.cs text eol=lf
+*.json text eol=lf
+*.txt text eol=lf
+*.xml text eol=lf
+
+# TextMesh Pro fonts and resources (correct paths)
+Assets/TextMesh_Pro/Fonts/* text eol=lf
+Assets/TextMesh_Pro/Resources/* text eol=lf
+
+# TextMesh Pro shader files
+Assets/TextMesh_Pro/Shaders/* text eol=lf
+
+# Prevent Unity scene files from being treated as binary
+*.unity binary
+*.prefab binary
+*.asset binary
+*.meta binary
